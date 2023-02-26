@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML_1301204229</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: black;
+            color: beige;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Heading -->
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+
+    <hr>
+
+    <!-- hyperlink -->
+    <p>Link Menuju Youtube - Rizky Ferdian Prasetyo</p>
+    <a href="https://www.youtube.com/">Youtube</a>
+
+    <hr>
+    <!-- Table -->
+
+    <h1>Table - Rizky Ferdian Prasetyo</h1>
+
+    <table>
+        <tr>
+            <th>Bulan</th>
+            <th>Jumlah Pengeluaran</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>Rp. 500.000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>Rp. 900.000</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Image - Rizky Ferdian Prasetyo_1301204229</h2>
+    <img src="./Assets/images/human.png" width="200px" alt="">
+
+    <hr>
+    <h1>audio & Video - Rizky Ferdian Prasetyo</h1>
+
+    <p>Click on the play button to play a sound:</p>
+
+    <audio controls>
+        <source src="/Assets/audio/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+    <video width="400" controls>
+        <source src="/Assets/video/mov_bbb.mp4" type="video/mp4">
+    </video>
+    <p>
+        Video courtesy of
+        <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+    </p>
+
+    <hr>
+    <h2>Form - Rizky Ferdian prasetyo</h2>
+    <form action="">
+        <label>Nama :</label>
+        <input type="text" id="fname" name="fname" placeholder="Nama Lengkap"><br>
+        <label>Username :</label>
+        <input type="text" id="lname" name="lname" placeholder="Masukkan Username"><br>
+        <label>Email :</label>
+        <input type="email" id="email" name="email" placeholder="masukkan email"><br>
+        <label>Password :</label>
+        <input type="password" id="pwd" name="pwd" placeholder="Masukkan Password"><br>
+        <label>Jenis Kelamin :</label><br>
+        <input type="radio" name="laki" id="laki">
+        <label for="">Laki laki</label>
+        <input type="radio" name="perempuan" id="perempuan">
+        <label for="">Perempuan</label><br>
+        <label for="">Hobi :</label> <br>
+        <input type="checkbox" id="memancing" name="memancing" value="memancing">
+        <label>Memancing</label><br>
+        <input type="checkbox" id="Nonton" name="Nonton" value="Nonton">
+        <label>Nonton</label><br>
+
+        <label for="">Jengjang Pendidikan</label>
+        <Select>
+            <option value="diploma">Diploma</option>
+            <option value="sarjana">Sarjana</option>
+            <option value="master">Master</option>
+        </Select>
+        <br>
+        <label for="">Kritik & Saran</label><br>
+        <textarea rows="4" cols="50"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
